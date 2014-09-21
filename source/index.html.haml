@@ -1,0 +1,99 @@
+-# Navbar
+.navbar-wrapper
+  %nav.navbar.navbar-inverse.navbar-fixed-top{:role => "navigation"}
+    .container-fluid
+      .navbar-header
+        %button.navbar-toggle.collapsed{"data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
+          %span.sr-only Toggle navigation
+          %span.icon-bar
+          %span.icon-bar
+          %span.icon-bar
+        %a.navbar-brand{:href => "#"} GUIBRUSH
+      #bs-example-navbar-collapse-1.collapse.navbar-collapse
+        %ul.nav.navbar-nav
+          %li.active
+            %a{:href => "#"} A PROPOS
+          %li
+            %a{:href => "#"} SERVICES
+          %li
+            %a{:href => "#"} CONTACT
+-# Home image
+%header.container-fluid
+  .row
+    %img.img-responsive{:src => "../images/header-bg.jpg"}
+-# About
+%section#about-wrapper
+  .container
+    .row
+      .col-md-12.text-center
+        %h1
+          :escaped
+            Bienvenue sur le site de Guibrush
+        %h2
+          :escaped
+            Votre communication, notre metier
+        %p
+          :escaped
+            Dans le monde actuel l'existence
+        %p
+-# Services
+%section.container.services
+  .row.text-center
+    .col-md-4
+      %img.img-responsive.img-circle.center-block{:src => "../images/icone1.png"}
+      %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    .col-md-4
+      %img.img-responsive.img-circle.center-block{:src => "../images/icone2.png"}
+      %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    .col-md-4
+      %img.img-responsive.img-circle.center-block{:src => "../images/icone3.png"}
+      %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  %hr
+  .row
+    .col-md-4
+      %img.img-responsive.img-circle.center-block{:src => "../images/icone4.png"}
+      %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    .col-md-4
+      %img.img-responsive.img-circle.center-block{:src => "../images/icone5.png"}
+      %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    .col-md-4
+      %img.img-responsive.img-circle.center-block{:src => "../images/icone6.png"}
+      %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+-# Contact
+%section#contact-wrapper
+  .container.contact
+    .row
+      .col-lg-12.text-center
+        %h2.section-heading Contact Us
+        %h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+    .row
+      .col-lg-12
+        %form#contactForm{:name => "sentMessage", :novalidate => ""}
+          .row
+            .col-md-6
+              .form-group
+                %input#name.form-control{"data-validation-required-message" => "Please enter your name.", :placeholder => "Your Name *", :required => "", :type => "text"}/
+                %p.help-block.text-danger
+              .form-group
+                %input#email.form-control{"data-validation-required-message" => "Please enter your email address.", :placeholder => "Your Email *", :required => "", :type => "email"}/
+                %p.help-block.text-danger
+              .form-group
+                %input#phone.form-control{"data-validation-required-message" => "Please enter your phone number.", :placeholder => "Your Phone *", :required => "", :type => "tel"}/
+                %p.help-block.text-danger
+            .col-md-6
+              .form-group
+                %textarea#message.form-control{"data-validation-required-message" => "Please enter a message.", :placeholder => "Your Message *", :required => ""}
+                %p.help-block.text-danger
+            .clearfix
+            .col-lg-12.text-center
+              #success
+              %button.btn.btn-xl{:type => "submit"} Send Message
+-# Footer
+%footer.container-fluid.gradient
+  .row.text-center
+    %p.social
+      %i.fa.fa-twitter
+    %p
+      8 rue des Fours
+    %p
+      83390 CUERS
