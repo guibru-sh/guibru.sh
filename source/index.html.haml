@@ -76,7 +76,7 @@
         %h3.section-subheading Si vous souhaitez nous contactez, envoyez nous un email décrivant les prestations qui vous intéressent ainsi qu'un moyen de vous joindre et nous vous recontacterons après réception de votre demande
     .row
       .col-lg-12
-        %form#contactForm{:name => "sentMessage"}
+        %form#contactForm.form-horizontal{:name => "contact_form", :enctype => "multipart/form-data", :method => "post"}
           .row
             .col-md-6
               .form-group
