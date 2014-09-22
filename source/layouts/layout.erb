@@ -11,11 +11,11 @@
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "Guibrush, votre communication, notre métier" %></title>
 
-    <%= stylesheet_link_tag  "style" %>
-    <%= javascript_include_tag  "all" %>
-
     <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+    <%= stylesheet_link_tag  "style" %>
+    <%= javascript_include_tag  "all" %>
   </head>
 
   <body class="<%= page_classes %>">
