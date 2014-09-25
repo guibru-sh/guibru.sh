@@ -70,4 +70,9 @@ configure :build do
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 end
+
+activate :blog do |blog|
+  # set options on blog
+end
+
 activate :sitemap, :hostname => "http://www.guibru.sh"
