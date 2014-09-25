@@ -86,7 +86,7 @@
                 %input#email.form-control{"data-validation-required-message" => "Entrez votre adresse email.", :placeholder => "Votre Email *", :required => "", :type => "email", :name => "email"}
                 %p.help-block
               .form-group
-                %input#phone.form-control{"data-validation-required-message" => "Entrez votre numéro de téléphone.", :placeholder => "Votre numéro de téléphone", :required => "", :type => "tel", :name => "phone"}
+                %input#phone.form-control{"data-validation-required-message" => "Entrez votre numéro de téléphone.", :placeholder => "Votre numéro de téléphone", :type => "tel", :name => "phone"}
                 %p.help-block
             .col-md-6
               .form-group
@@ -94,8 +94,15 @@
                 %p.help-block
             .clearfix
             .col-lg-12.text-center
-              #success
               %button.btn.btn-xl{:type => "submit"} Envoyez votre message
+-# Modal
+#contactModal.modal.fade.bs-example-modal-sm{"aria-hidden" => "true", "aria-labelledby" => "contactModal", :role => "dialog", :tabindex => "-1"}
+  .modal-dialog.modal-sm
+    .modal-content
+      .modal-header.text-center
+        %h3 Formulaire de contact
+      .modal-body.text-center
+        %p Toute l'equipe de Guibrush vous remercie.
 -# Footer
 %footer.container-fluid.gradient
   .row.text-center
