@@ -71,8 +71,5 @@ configure :build do
   # set :http_prefix, "/Content/images/"
 end
 
-activate :blog do |blog|
-  # set options on blog
-end
-
 activate :sitemap, :hostname => "http://www.guibru.sh"
+activate :i18n,:mount_at_root => :fr
