@@ -70,3 +70,6 @@ configure :build do
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 end
+
+activate :sitemap, :hostname => "http://www.guibru.sh"
+activate :i18n,:mount_at_root => :fr

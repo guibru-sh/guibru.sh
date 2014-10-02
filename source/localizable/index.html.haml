@@ -1,0 +1,137 @@
+-# Navbar
+%nav#navigation-wrapper.navbar.navbar-inverse.navbar-fixed-top{:role => "navigation"}
+  .container-fluid
+    .navbar-header
+      %button.navbar-toggle.collapsed{"data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
+        %span.sr-only Toggle navigation
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      %a.navbar-brand{:href => "#navigation-wrapper"}
+        %h1 GUIBRUSH
+    #bs-example-navbar-collapse-1.collapse.navbar-collapse
+      %ul.nav.navbar-nav
+        %li.active
+          %a{:href => "#about-wrapper"}
+            = I18n.t(:navbar_a_propos).upcase
+        %li
+          %a{:href => "#services-wrapper"}
+            = I18n.t(:navbar_services).upcase
+        %li
+          %a{:href => "#contact-wrapper"}
+            = I18n.t(:navbar_contact).upcase
+      %ul.nav.navbar-nav.navbar-right
+        %li.dropdown
+          %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
+            = I18n.t(:navbar_language)
+            %span.caret
+          %ul.dropdown-menu{:role => "menu"}
+            %li
+              %a{:href => "/en"} EN
+            %li
+              %a{:href => "/"} FR
+-# Home image
+%header.container-fluid
+  .row
+    %img.img-responsive{:src => "../images/header-bg.jpg"}
+-# About
+%section#about-wrapper
+  .container
+    .row
+      .col-md-12.text-center
+        %h2
+          = I18n.t(:about_h2_1)
+        %h3
+          = I18n.t(:about_h3_2)
+        %p
+          = I18n.t(:about_p_1)
+        %p
+          = I18n.t(:about_p_2)
+        %p
+          = I18n.t(:about_p_3)
+-# Services
+%section#services-wrapper.container.services
+  .row
+    .col-md-12.text-center
+      %h2
+        = I18n.t(:services_h2_1)
+  .row.text-center
+    .col-md-4
+      %img.img-responsive.img-circle.center-block{:src => "../images/icone1.png", :alt => "icone pour représenter le webdesign"}
+      %p
+        = I18n.t(:services_p_1)
+    .col-md-4
+      %img.img-responsive.img-circle.center-block{:src => "../images/icone2.png", :alt => "icone pour représenter le graphisme"}
+      %p
+        = I18n.t(:services_p_2)
+    .col-md-4
+      %img.img-responsive.img-circle.center-block{:src => "../images/icone3.png", :alt => "icone pour représenter le développement"}
+      %p
+        = I18n.t(:services_p_3)
+  %hr
+  .row.text-center
+    .col-md-4
+      %img.img-responsive.img-circle.center-block{:src => "../images/icone4.png", :alt => "icone pour représenter la photographie"}
+      %p
+        = I18n.t(:services_p_4)
+    .col-md-4
+      %img.img-responsive.img-circle.center-block{:src => "../images/icone5.png", :alt => "icone pour représenter la compatibilité mobile"}
+      %p
+        = I18n.t(:services_p_5)
+    .col-md-4
+      %img.img-responsive.img-circle.center-block{:src => "../images/icone6.png", :alt => "icone pour représenter la mise en ligne"}
+      %p
+        = I18n.t(:services_p_6)
+-# Contact
+%section#contact-wrapper
+  .container.contact
+    .row
+      .col-lg-12.text-center
+        %h2.section-heading
+          = I18n.t(:contact_h2_1)
+        %h3.section-subheading
+          = I18n.t(:contact_h3_1)
+    .row
+      .col-lg-12
+        %form#contactForm{:name => "contact_form", :enctype => "multipart/form-data", :method => "post"}
+          .row
+            .col-md-6
+              .form-group
+                %input#name.form-control{"data-validation-required-message" => "Entrez votre nom.", :placeholder => "Votre Nom *", :required => "", :type => "text", :name => "name"}
+                %p.help-block
+              .form-group
+                %input#email.form-control{"data-validation-required-message" => "Entrez votre adresse email.", :placeholder => "Votre Email *", :required => "", :type => "email", :name => "email"}
+                %p.help-block
+              .form-group
+                %input#phone.form-control{"data-validation-required-message" => "Entrez votre numéro de téléphone.", :placeholder => "Votre numéro de téléphone", :type => "tel", :name => "phone"}
+                %p.help-block
+            .col-md-6
+              .form-group
+                %textarea#message.form-control{"data-validation-required-message" => "Entrez votre message.", :placeholder => "Votre Message *", :required => "", :name => "message"}
+                %p.help-block
+            .clearfix
+            .col-lg-12.text-center
+              %button.btn.btn-xl{:type => "submit"}
+                = I18n.t(:contact_button_submit)
+-# Modal
+#contactModal.modal.fade.bs-example-modal-sm{"aria-hidden" => "true", "aria-labelledby" => "contactModal", :role => "dialog", :tabindex => "-1"}
+  .modal-dialog.modal-sm
+    .modal-content
+      .modal-header.text-center
+        %h3
+          = I18n.t(:contact_form_h3_1)
+      .modal-body.text-center
+        %p
+          = I18n.t(:contact_p_1)
+-# Footer
+%footer.container-fluid.gradient
+  .row.text-center
+    %p.social
+      %a{:href => "https://twitter.com/guibru_sh"}
+        %i.fa.fa-twitter
+    %p
+      83390 CUERS
+    %p
+      Guibrush
+      %i.glyphicon.glyphicon-copyright-mark
+      2014
