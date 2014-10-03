@@ -1,0 +1,21 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Developer: Guillaume Sorbier
+    Twitter: @guibru_sh
+    From:Cuers, France
+
+    Developer: Brume Tranchet
+    Twitter: @guibru_sh
+    From:Cuers, France
+
+# THANKS
+
+# TECHNOLOGY COLOPHON
+
+    Last update:2012/02/04
+    Language: English / French
+    Doctype:HTML5
+    IDE: Atom, Photoshop
