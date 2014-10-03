@@ -33,9 +33,9 @@
 -# Home image
 %header.container-fluid
   .row
-    %img.img-responsive{:src => "../images/header-bg.jpg"}
+    %img.img-responsive{:src => "../images/header-bg.jpg", :alt => "Homepage", :itemprop => "primaryImageOfPage"}
 -# About
-%section#about-wrapper
+%section#about-wrapper{:itemprop => "mainContentOfPage"}
   .container
     .row
       .col-md-12.text-center
@@ -125,13 +125,19 @@
           = I18n.t(:contact_p_1)
 -# Footer
 %footer.container-fluid.gradient
-  .row.text-center
-    %p.social
-      %a{:href => "https://twitter.com/guibru_sh"}
-        %i.fa.fa-twitter
-    %p
-      83390 CUERS
-    %p
-      Guibrush
-      %i.glyphicon.glyphicon-copyright-mark
-      2014
+  .row
+    .col-sm-4
+    .col-sm-4.text-center
+      %p.social
+        %a{:href => "https://twitter.com/guibru_sh"}
+          %i.fa.fa-twitter
+      %p
+        83390 CUERS
+      %p
+        Guibrush
+        %i.glyphicon.glyphicon-copyright-mark
+        2014
+    .col-sm-4.text-right
+      %p.small{:itemprop => "lastReviewed"}
+        Mis a jour le :
+        = Git.open(".").log.first.author.date.strftime("%d/%m/%Y")
