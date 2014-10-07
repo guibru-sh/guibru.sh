@@ -41,9 +41,9 @@
       .col-md-6
         %img.img-responsive.img-circle.center-block{:src => "../images/logosite350x350.png", :alt => "icone du logo"}
       .col-md-6.text-justify
-        %h2
-          = I18n.t(:about_h2_1)
-        %h3
+        %h2.text-center
+          = I18n.t(:about_h2_1).upcase
+        %h3.text-center
           = I18n.t(:about_h3_2)
         %p
           = I18n.t(:about_p_1)
@@ -56,45 +56,45 @@
   .row
     .col-md-12.text-center
       %h2
-        = I18n.t(:services_h2_1)
+        = I18n.t(:services_h2_1).upcase
   .row.text-center
     .col-md-4
-      %img.img-responsive.img-circle.center-block{:src => "../images/icone1.png", :alt => "icone pour représenter le webdesign"}
-      %h3
-        = I18n.t(:services_h3_1)
-      %p.text-justify
-        = I18n.t(:services_p_1)
-    .col-md-4
-      %img.img-responsive.img-circle.center-block{:src => "../images/icone2.png", :alt => "icone pour représenter le graphisme"}
+      %img.img-responsive.img-circle.center-block{:src => "../images/icone2.png", :alt => "icone pour représenter le webdesign"}
       %h3
         = I18n.t(:services_h3_2)
       %p.text-justify
         = I18n.t(:services_p_2)
     .col-md-4
-      %img.img-responsive.img-circle.center-block{:src => "../images/icone3.png", :alt => "icone pour représenter le développement"}
-      %h3
-        = I18n.t(:services_h3_3)
-      %p
-        = I18n.t(:services_p_3)
-  %hr
-  .row.text-center
-    .col-md-4
-      %img.img-responsive.img-circle.center-block{:src => "../images/icone4.png", :alt => "icone pour représenter la photographie"}
+      %img.img-responsive.img-circle.center-block{:src => "../images/icone4.png", :alt => "icone pour représenter le graphisme"}
       %h3
         = I18n.t(:services_h3_4)
       %p.text-justify
         = I18n.t(:services_p_4)
     .col-md-4
+      %img.img-responsive.img-circle.center-block{:src => "../images/icone1.png", :alt => "icone pour représenter le développement"}
+      %h3
+        = I18n.t(:services_h3_1)
+      %p.text-justify
+        = I18n.t(:services_p_1)
+  %hr
+  .row.text-center
+    .col-md-4
+      %img.img-responsive.img-circle.center-block{:src => "../images/icone3.png", :alt => "icone pour représenter la photographie"}
+      %h3
+        = I18n.t(:services_h3_3)
+      %p.text-justify
+        = I18n.t(:services_p_3)
+    .col-md-4
       %img.img-responsive.img-circle.center-block{:src => "../images/icone5.png", :alt => "icone pour représenter la compatibilité mobile"}
       %h3
         = I18n.t(:services_h3_5)
-      %p
+      %p.text-justify
         = I18n.t(:services_p_5)
     .col-md-4
       %img.img-responsive.img-circle.center-block{:src => "../images/icone6.png", :alt => "icone pour représenter la mise en ligne"}
       %h3
         = I18n.t(:services_h3_6)
-      %p
+      %p.text-justify
         = I18n.t(:services_p_6)
 -# Contact
 %section#contact-wrapper
@@ -102,7 +102,7 @@
     .row
       .col-lg-12.text-center
         %h2.section-heading
-          = I18n.t(:contact_h2_1)
+          = I18n.t(:contact_h2_1).upcase
         %h3.section-subheading
           = I18n.t(:contact_h3_1)
     .row

@@ -14,14 +14,22 @@ fr:
   services_h3_2: "Graphisme"
   services_h3_3: "Développement"
   services_h3_4: "Photographie"
-  services_h3_5: "Compatibilité"
-  services_h3_6: "Mise en ligne"
-  services_p_1: "Nous vous proposons un webdesign correspondant à vos besoins en accord avec votre charte graphique. Il est important que vos outils de communications soient cohérent afin d'être identifié sur internet aussi bien que physiquement. Il est aussi important que vos images (votre logo,vos phtotographies de produits, etc...) soient optimisées pour l'affichage de vote site."
-  services_p_2: "Nous vous proposons un graphisme et des images personnalisables pour votre site. En effet si vous ne disposez pas encore de charte graphique nous vous proposons de réaliser celle-ci en accord avec les valeurs et les idées que vous souhaitez communiquer à vos clients et prospects. Logotype, cartes de visite et catalogues produits personalisés font souvent les bases d'une communication réussi."
-  services_p_3: "Un developpement professionel conforme aux normes en vigeurs avec les dernières technologies"
-  services_p_4: "Si vous êtes dans le Var la possibilité de prestations photographiques personnalisées pour les visuels de votre site. Nous organisons pour vous des séances photographiques selon votre besoins, que ça soit des photographies de lieux ou de produits. Les photographies sont retouchées si nécessaires pour un rendu optimal et peuvent être selon qu'elles soient déstiné à un usage virtuelle ou à l'impression."
-  services_p_5: "Votre site est compatible écran, tablette et smartphone"
-  services_p_6: "Votre site en ligne rapidement dès votre validation"
+  services_h3_5: "Marketing"
+  services_h3_6: "Hebergement"
+  # Webdesign
+  services_p_1: "Nous vous proposons un <b>webdesign</b> correspondant à vos besoins en accord avec <b>votre charte graphique</b>. Il est important que vos outils de communications soient cohérent afin d'être identifié sur internet aussi bien que physiquement. Il est aussi important que vos images <b>(votre logo,vos phtotographies de produits, etc...)</b> soient optimisées pour l'affichage de vote site."
+  # Graphisme
+  services_p_2: "Nous vous proposons un graphisme et des images personnalisables pour votre site. En effet si vous ne disposez pas encore de <b>charte graphique</b> nous vous proposons de réaliser celle-ci en accord avec les valeurs et les idées que vous souhaitez communiquer à vos clients et prospects. <b>Logotype, cartes de visite et catalogues produits personalisés</b> font souvent les bases d'une communication réussie."
+  # Développement
+  services_p_3: "Nous sommes expert dans les technolgies <b>RubyOnRails</b> et <b>Sinatra</b>. Nous utilisons les derniers standards <b>HTML5, CSS3 et frameworks javascripts</b>. Vous avez ainsi la certitude de disposer d'un code de qualite et performant. Vous pouvez choisir trois produits differents. <b>Le site statique</b> ou site vitrine est un site internet generalement constitue de moins d'une dizaine de pages. Il permet de presenter votre entreprise.
+<b>Le blog</b> est souvent complentaire s'un site vitrine, il permet de rediger du contenu generalement avec un <b>CMS</b>. Un contenu de qualite est primordial pour augmenter votre referencement naturel.
+<b>La solution E-commerce</b> est un produit qui convient aux entreprises qui veulent vendre sur internet."
+  # Photographie
+  services_p_4: "<b>Si vous êtes dans le Var</b> vous avez la possibilité de demander <b>des prestations photographiques personnalisées</b> pour les visuels de votre site. Nous organisons pour vous <b>des séances photographiques</b> selon votre besoins, que ça soit des photographies de lieux ou de produits. Les photographies sont retouchées si nécessaires pour un rendu optimal et peuvent être selon qu'elles soient déstiné à un usage virtuelle ou à l'impression."
+  # Compatibilité
+  services_p_5: "Hier encore Internet etait cantonne aux ordinateurs de bureaux, aujourd'hui il est partout. Dans un futur proche <b>les equipements mobiles</b> generont plus de traffic que les ordinateurs de bureaux. Il est donc primordial que votre communication en tienne compte. Nos projets sont elabores en gardant a l'esprit un resultat optimum sur tous les supports. Afin d'apparaitre dans les meilleures resultats de recherche il ne faut pas negliger la communication avec les reseaux sociaux. En quelques instants un simple \"tweet\" peut etre vus par des milliers de personnes."
+  # Mise en ligne
+  services_p_6: "Nous nous occupons de l'hebergement de votre site internet sur nos serveurs <b>VPS</b>. Notez que vous avez toujours la possibilite d'utiliser votre propre solution. Si vous choississez notre hebergement vous aurez la garantie de profiter des meilleures performances actuelles. Nous utilisons des serveurs equipes de disques <b>SSD</b> (technologie la plus rapide) et beneficiant de la meilleure bande passante."
   contact_h2_1: "Contactez-nous"
   contact_h3_1: "Si vous souhaitez nous contactez, envoyez nous un email décrivant les prestations qui vous intéressent ainsi qu'un moyen de vous joindre et nous vous recontacterons après réception de votre demande."
   contact_button_submit: "Envoyez votre message"
