@@ -138,20 +138,30 @@
         %p
           = I18n.t(:contact_p_1)
 -# Footer
-%footer.container-fluid.gradient
-  .row
-    .col-sm-4
-    .col-sm-4.text-center
-      %p.social
-        %a{:href => "https://twitter.com/guibru_sh"}
-          %i.fa.fa-twitter
-      %p
-        83390 CUERS
-      %p
-        Guibrush
-        %i.glyphicon.glyphicon-copyright-mark
-        2014
-    .col-sm-4.text-right
-      %p.small{:itemprop => "lastReviewed"}
-        Mis a jour le :
-        = Git.open(".").log.first.author.date.strftime("%d/%m/%Y")
+#footer-wrapper.gradient
+  %footer.container
+    .row
+      .col-sm-4
+        %a{:href => "http://blog.guibru.sh"}
+          %span.glyphicon.glyphicon-link
+            Blog
+      .col-sm-4.text-center{:itemscope => "", :itemtype => "http://schema.org/LocalBusiness"}
+        %p.social
+          %a{:href => "https://twitter.com/guibru_sh"}
+            %i.fa.fa-twitter
+        %p.small{:itemprop => "address", :itemscope => "", :itemtype => "http://schema.org/PostalAddress"}
+          %span{:itemprop => "postalCode"}
+            83390
+          %span{:itemprop => "addressLocality"}
+            CUERS
+        %p.small
+          Guibrush
+          %i.glyphicon.glyphicon-copyright-mark
+          2014
+      .col-sm-4.text-right
+        %p.small{:itemprop => "lastReviewed"}
+          Mis a jour le :
+          = Git.open(".").log.first.author.date.strftime("%d/%m/%Y")
+        %p
+          %a{:href => "http://humanstxt.org"}
+            %img{:src => "../images/humanstxt-isolated-blank.gif",  :alt => "Humanstxt"}
