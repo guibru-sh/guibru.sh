@@ -7,7 +7,7 @@ fr:
   about_h2_1: "A propos de nous"
   about_h3_2: "Guibrush est né d'un besoin"
   about_p_1: "Dans le monde actuel l'existence d'une entreprise n'est plus seulement reconnue localement mais mondialement"
-  about_p_2: "Internet abolit les frontières et permet de communiquer dans le monde entier. Le meilleur moyen de contrôler votre image sur internet et de posséder votre propre site créé selon votre besoin."
+  about_p_2: "Internet abolit les frontières et permet de communiquer dans le monde entier. Le meilleur moyen de contrôler votre image sur internet est de posséder votre propre site créé selon votre besoin."
   about_p_3: "Guibrush s'occupe de votre communication qu'elle soit physique (charte graphique, logotype, papeterie), ou virtuelle (site internet, bannières, newsletters). Trouvons ensemble ce qui vous correspond et ce qui vous permettera d'évoluer."
   services_h2_1: "Nos services"
   services_h3_1: "Webdesign"
@@ -17,19 +17,19 @@ fr:
   services_h3_5: "Marketing"
   services_h3_6: "Hebergement"
   # Webdesign
-  services_p_1: "Nous vous proposons un <b>webdesign</b> correspondant à vos besoins en accord avec <b>votre charte graphique</b>. Il est important que vos outils de communications soient cohérent afin d'être identifié sur internet aussi bien que physiquement. Il est aussi important que vos images <b>(votre logo,vos phtotographies de produits, etc...)</b> soient optimisées pour l'affichage de vote site."
+  services_p_1: "Nous vous proposons un <b>webdesign</b> correspondant à vos besoins en accord avec <b>votre charte graphique</b>. Il est important que vos outils de communications soient cohérents afin d'être identifié sur internet. Il est aussi important que vos images <b>(votre logo, vos phototographies de produits, etc...)</b> soient optimisées pour l'affichage de vote site."
   # Graphisme
   services_p_2: "Nous vous proposons un graphisme et des images personnalisables pour votre site. En effet si vous ne disposez pas encore de <b>charte graphique</b> nous vous proposons de réaliser celle-ci en accord avec les valeurs et les idées que vous souhaitez communiquer à vos clients et prospects. <b>Logotype, cartes de visite et catalogues produits personalisés</b> font souvent les bases d'une communication réussie."
   # Développement
-  services_p_3: "Nous sommes éxpert dans les technolgies <b>RubyOnRails</b> et <b>Sinatra</b>. Nous utilisons les derniers standards <b>HTML5, CSS3 et frameworks javascripts</b>. Vous avez ainsi la certitude de disposer d'un code de qualité et performant. Vous pouvez choisir trois produits différents. <b>Le site statique</b> ou site vitrine est un site internet généralement constitué de moins d'une dizaine de pages. Il permet de présenter votre entreprise.
-<b>Le blog</b> est souvent complémentaire s'un site vitrine, il permet de rediger du contenu généralement avec un <b>CMS</b>. Un contenu de qualité est primordial pour augmenter votre référencement naturel.
+  services_p_3: "Nous sommes expert dans les technolgies <b>RubyOnRails</b> et <b>Sinatra</b>. Nous utilisons les derniers standards <b>HTML5, CSS3 et frameworks javascripts</b>. Vous avez ainsi la certitude de disposer d'un code de qualité et performant. Vous pouvez choisir trois produits différents. <b>Le site statique</b> ou site vitrine est un site internet généralement constitué de moins d'une dizaine de pages. Il permet de présenter votre entreprise.
+<b>Le blog</b> est souvent complémentaire d'un site vitrine, il permet de rédiger du contenu généralement avec un <b>CMS</b>. Un contenu de qualité est primordial pour augmenter votre référencement naturel.
 <b>La solution E-commerce</b> est un produit qui convient aux entreprises qui veulent vendre sur internet."
   # Photographie
-  services_p_4: "<b>Si vous êtes dans le Var</b> vous avez la possibilité de demander <b>des prestations photographiques personnalisées</b> pour les visuels de votre site. Nous organisons pour vous <b>des séances photographiques</b> selon votre besoins, que ça soit des photographies de lieux ou de produits. Les photographies sont retouchées si nécessaires pour un rendu optimal et peuvent être selon qu'elles soient déstiné à un usage virtuelle ou à l'impression."
+  services_p_4: "<b>Si vous êtes dans le Var</b> vous avez la possibilité de demander <b>des prestations photographiques personnalisées</b> pour les visuels de votre site. Nous organisons pour vous <b>des séances photographiques</b> selon vos besoins, que ça soit des photographies de lieux ou de produits. Les photographies sont retouchées si nécessaire pour un rendu optimal pour un rendu numérique ou pour l'impression."
   # Compatibilité
-  services_p_5: "Hier encore Internet était cantonne aux ordinateurs de bureaux, aujourd'hui il est partout. Dans un futur proche <b>les équipements mobiles</b> généreront plus de traffic que les ordinateurs de bureaux. Il est donc primordial que votre communication en tienne compte. Nos projets sont élaborés en gardant à l'esprit un resultat optimum sur tous les supports. Afin d'apparaître dans les meilleures résultats de recherche il ne faut pas négliger la communication avec les réseaux sociaux. En quelques instants un simple \"tweet\" peut être vus par des milliers de personnes."
+  services_p_5: "Dans un futur proche <b>les équipements mobiles</b> généreront plus de traffic que les ordinateurs de bureaux. Il est donc primordial que votre communication en tienne compte. Nos projets sont élaborés en gardant à l'esprit un resultat optimum sur tous les supports. Afin d'apparaître dans les meilleurs résultats de recherche il ne faut pas négliger la communication avec les réseaux sociaux. En quelques instants un simple \"tweet\" peut être vus par des milliers de personnes."
   # Mise en ligne
-  services_p_6: "Nous nous occupons de l'hébergement de votre site internet sur nos serveurs <b>VPS</b>. Notez que vous avez toujours la possibilite d'utiliser votre propre solution. Si vous choississez notre hébergement vous aurez la garantie de profiter des meilleures performances actuelles. Nous utilisons des serveurs équipés de disques <b>SSD</b> (technologie la plus rapide) et bénéficiant de la meilleure bande passante."
+  services_p_6: "Nous nous occupons de l'hébergement de votre site internet sur nos serveurs <b>VPS</b>. Notez que vous avez toujours la possibilité d'utiliser votre propre solution. Si vous choississez notre hébergement vous aurez la garantie de profiter des meilleures performances actuelles. Nous utilisons des serveurs équipés de disques <b>SSD</b> (technologie la plus rapide) et bénéficiant de la meilleure bande passante."
   contact_h2_1: "Contactez-nous"
   contact_h3_1: "Si vous souhaitez nous contactez, envoyez nous un email décrivant les prestations qui vous intéressent ainsi qu'un moyen de vous joindre et nous vous recontacterons après réception de votre demande."
   contact_button_submit: "Envoyez votre message"
