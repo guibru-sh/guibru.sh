@@ -69,6 +69,14 @@ configure :build do
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
+
+  ignore 'images/chevrons-left.png'
+  ignore 'portfolio.html'
+  ignore 'en/portfolio.html'
+
+  ignore 'javascripts/agilecrm.js'
+  ignore 'javascripts/jqBootstrapValidation.js'
+  ignore 'javascripts/segment.js'
 end
 
 activate :sitemap, :hostname => "http://www.guibru.sh"
