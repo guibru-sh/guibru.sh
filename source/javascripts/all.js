@@ -60,3 +60,8 @@ $(document).ready(function() {
     }
   });
 });
+
+// http://www.appelsiini.net/projects/lazyload
+$(function() {
+    $("img.lazy").lazyload();
+});

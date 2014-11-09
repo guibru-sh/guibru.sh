@@ -39,7 +39,7 @@
   .container
     .row
       .col-md-6
-        %img.img-responsive.img-circle.center-block{:src => "../images/logosite350x350.png", :alt => "icone du logo"}
+        %img.img-responsive.img-circle.center-block.lazy{'data-original' => '../images/logosite350x350.png', :alt => "icone du logo"}
       .col-md-6.text-justify
         %h2.text-center
           = I18n.t(:about_h2_1).upcase
@@ -59,19 +59,19 @@
         = I18n.t(:services_h2_1).upcase
   .row.text-center
     .col-md-4
-      %img.img-responsive.img-circle.center-block{:src => "../images/icone2.png", :alt => "icone pour représenter le webdesign"}
+      %img.img-responsive.img-circle.center-block.lazy{'data-original' => '../images/icone2.png', :alt => "icone pour représenter le webdesign"}
       %h3
         = I18n.t(:services_h3_2)
       %p.text-justify
         = I18n.t(:services_p_2)
     .col-md-4
-      %img.img-responsive.img-circle.center-block{:src => "../images/icone4.png", :alt => "icone pour représenter le graphisme"}
+      %img.img-responsive.img-circle.center-block.lazy{'data-original' => '../images/icone4.png', :alt => "icone pour représenter le graphisme"}
       %h3
         = I18n.t(:services_h3_4)
       %p.text-justify
         = I18n.t(:services_p_4)
     .col-md-4
-      %img.img-responsive.img-circle.center-block{:src => "../images/icone1.png", :alt => "icone pour représenter le développement"}
+      %img.img-responsive.img-circle.center-block.lazy{'data-original' => '../images/icone1.png', :alt => "icone pour représenter le développement"}
       %h3
         = I18n.t(:services_h3_1)
       %p.text-justify
@@ -79,19 +79,19 @@
   %hr
   .row.text-center
     .col-md-4
-      %img.img-responsive.img-circle.center-block{:src => "../images/icone3.png", :alt => "icone pour représenter la photographie"}
+      %img.img-responsive.img-circle.center-block.lazy{'data-original' => '../images/icone3.png', :alt => "icone pour représenter la photographie"}
       %h3
         = I18n.t(:services_h3_3)
       %p.text-justify
         = I18n.t(:services_p_3)
     .col-md-4
-      %img.img-responsive.img-circle.center-block{:src => "../images/icone5.png", :alt => "icone pour représenter la compatibilité mobile"}
+      %img.img-responsive.img-circle.center-block.lazy{'data-original' => '../images/icone5.png', :alt => "icone pour représenter la compatibilité mobile"}
       %h3
         = I18n.t(:services_h3_5)
       %p.text-justify
         = I18n.t(:services_p_5)
     .col-md-4
-      %img.img-responsive.img-circle.center-block{:src => "../images/icone6.png", :alt => "icone pour représenter la mise en ligne"}
+      %img.img-responsive.img-circle.center-block.lazy{'data-original' => '../images/icone6.png', :alt => "icone pour représenter la mise en ligne"}
       %h3
         = I18n.t(:services_h3_6)
       %p.text-justify
@@ -164,4 +164,4 @@
           = Git.open(".").log.first.author.date.strftime("%d/%m/%Y")
         %p
           %a{:href => "http://humanstxt.org"}
-            %img{:src => "../images/humanstxt-isolated-blank.gif",  :alt => "Humanstxt"}
+            %img.lazy{'data-original' => '../images/humanstxt-isolated-blank.gif',  :alt => "Humanstxt"}
