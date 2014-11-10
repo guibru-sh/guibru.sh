@@ -61,6 +61,10 @@ $(document).ready(function() {
   });
 });
 
+$(function() {
+  $('#about-wrapper').css('height', $(window).height());
+});
+
 // http://www.appelsiini.net/projects/lazyload
 $(function() {
     $("img.lazy").lazyload();

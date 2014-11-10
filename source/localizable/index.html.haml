@@ -11,7 +11,7 @@
         %h1 GUIBRUSH
     #bs-example-navbar-collapse-1.collapse.navbar-collapse
       %ul.nav.navbar-nav
-        %li.active
+        %li
           %a{:href => "#about-wrapper"}
             = I18n.t(:navbar_a_propos).upcase
         %li
@@ -30,20 +30,16 @@
               %a{:href => "/en"} EN
             %li
               %a{:href => "/"} FR
--# Home image
-%header.container-fluid
-  .row
-    %img.img-responsive{:src => "../images/header-bg.jpg", :alt => "Homepage", :itemprop => "primaryImageOfPage"}
 -# About
 %section#about-wrapper{:itemprop => "mainContentOfPage"}
   .container
     .row
       .col-md-6
-        %img.img-responsive.img-circle.center-block.lazy{'data-original' => '../images/logosite350x350.png', :alt => "icone du logo"}
+        %img#img-logo.img-responsive.img-circle.center-block{:src => '../images/logosite350x350.png', :alt => "icone du logo"}
       .col-md-6.text-justify
-        %h2.text-center
+        %h2
           = I18n.t(:about_h2_1).upcase
-        %h3.text-center
+        %h3
           = I18n.t(:about_h3_2)
         %p
           = I18n.t(:about_p_1)
@@ -51,6 +47,10 @@
           = I18n.t(:about_p_2)
         %p
           = I18n.t(:about_p_3)
+-# Home image
+%header.container-fluid
+  .row
+    %img.img-responsive{:src => "../images/header-bg.jpg", :alt => "Homepage", :itemprop => "primaryImageOfPage"}
 -# Services
 %section#services-wrapper.container.services
   .row
